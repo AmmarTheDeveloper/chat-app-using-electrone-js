@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat app using html css and js</title>
+    <!-- own css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- favicon link  -->
+    <link rel="icon" type="images/x-icon" href="images/ammar.png">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="chat-container">
+            <div class="header">
+                <div class="group">
+                    <div class="image">
+                        <!-- <i class="fa-solid fa-user"></i> -->
+                        <img src="images/ammar.png" alt="">
+                    </div>
+                    <div class="title">
+                        <p class="name">Ammar Ansari</p>
+                        <p class="online">
+                            online
+                        </p>
+                    </div>
+                </div>
+                <div class="dot">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+            <div class="body">
+                <!-- if  there is no message  -->
+                <!-- <div class="no-message">
+                    You don't have message yet!
+                </div> -->
+                
+                <!-- message sent from user  -->
+                <!-- <div class="msg-box user">
+                    <div class="msg">
+                        hi
+                    </div>
+                    <div class="time">
+                        4:57
+                    </div>
+                </div>
+                
+                message sent from bot
+                <div class="msg-box bot">
+                    <div class="msg">
+                        Thank you for your awesome support!
+                    </div>
+                    <div class="time">
+                        4:57
+                    </div>
+                </div> -->
+                
+            </div>
+            <form class="input">
+                <div class="type">
+                    <textarea rows="1" placeholder="Type message..."></textarea>
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

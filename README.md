@@ -1,1 +1,1 @@
-# chat-app-using-electrone-js
+# chatapp-using-electron-js
